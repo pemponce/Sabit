@@ -6,6 +6,7 @@ import zoo.animals.Zebra;
 import zoo.models.Animal;
 
 import java.util.ArrayList;
+import java.util.function.Consumer;
 
 public class Main {
 //    public static void main(String[] args) {
@@ -36,8 +37,14 @@ public class Main {
         animals.add(lion);
         animals.add(slon);
         ZooKipaSmart zooKipaSmart = new ZooKipaSmart();
+
+        Consumer<Animal> feedCallback = animal -> {
+            System.out.println("Кормим животное: ");
+            animal.eats();
+        };
+
         for (Animal a : animals) {
-            zooKipaSmart.toFeedEater(a);
+            zooKipaSmart.toFeedEater(a, feedCallback);
         }
     }
 }
