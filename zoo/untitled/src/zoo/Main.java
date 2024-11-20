@@ -9,23 +9,6 @@ import java.util.ArrayList;
 import java.util.function.Consumer;
 
 public class Main {
-//    public static void main(String[] args) {
-//        Lion lion1 = new Lion();
-//        Slon slon1 = new Slon();
-//        Zebra zebra1 = new Zebra();
-//        Zebra zebra2 = new Zebra();
-//        Zebra zebra3 = new Zebra();
-//        ArrayList<IEater> eaters = new ArrayList<>();
-//        eaters.add(lion1);
-//        eaters.add(zebra1);
-//        eaters.add(zebra2);
-//        eaters.add(zebra3);
-//        eaters.add(slon1);
-//        ZooKipaSmart zooKipa = new ZooKipaSmart();
-//        for (IEater e: eaters ) {
-//            zooKipa.toFeedEater(e);
-//        }
-//    }
 
     public static void main(String[] args) {
         Animal zebra = new Zebra();
