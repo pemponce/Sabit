@@ -11,6 +11,7 @@ public class CalcSecondApplication {
 		SpringApplication.run(CalcSecondApplication.class, args);
 		CalcServiceImpl calcService = new CalcServiceImpl();
 		System.out.println(calcService.add(1, 2));
+		System.out.println(calcService.log(4));
 	}
 
 }
