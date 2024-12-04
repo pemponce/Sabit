@@ -108,6 +108,11 @@ class CalculatorTest {
     }
 
     @Test
+    void testLog() {
+        assertEquals(1.3862943611198906, calculator.log(4));
+    }
+
+    @Test
     void testImpossibleCases() {
         // Тест, который должен завалиться
         assertNotEquals(5, calculator.add(2, 2)); // Ожидаемое поведение - тест не пройдёт

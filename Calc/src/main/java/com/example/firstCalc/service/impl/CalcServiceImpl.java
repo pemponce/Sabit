@@ -34,4 +34,9 @@ public class CalcServiceImpl implements CalcService {
         }
         return a / b;
     }
+
+    @Override
+    public double log(double a) {
+        return Math.log(a);
+    }
 }

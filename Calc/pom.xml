@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>firstCalc</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>Calc</name>
     <description>Calc</description>
     <url/>
@@ -30,12 +30,6 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>firstCalc</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
