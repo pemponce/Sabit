@@ -1,6 +1,6 @@
-package com.example.calc;
+package com.example.firstCalc;
 
-import com.example.calc.service.impl.CalcServiceImpl;
+import com.example.firstCalc.service.impl.CalcServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

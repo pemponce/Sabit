@@ -1,4 +1,4 @@
-package com.example.calc.service;
+package com.example.firstCalc.service;
 
 public interface CalcService {
     public double add(double a, double b);

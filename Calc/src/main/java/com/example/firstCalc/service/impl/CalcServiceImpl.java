@@ -1,6 +1,6 @@
-package com.example.calc.service.impl;
+package com.example.firstCalc.service.impl;
 
-import com.example.calc.service.CalcService;
+import com.example.firstCalc.service.CalcService;
 
 public class CalcServiceImpl implements CalcService {
 
