@@ -1,4 +1,4 @@
-package org.example.yung;
+package org.example.smart;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
