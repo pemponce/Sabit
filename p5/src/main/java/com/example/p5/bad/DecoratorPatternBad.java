@@ -5,15 +5,15 @@ import lombok.Setter;
 
 public class DecoratorPatternBad {
     public static void main(String[] args) {
-        Beverage beverage = new Beverage();
+        DarkRoast beverage = new DarkRoast();
         beverage.setMilkCost(11.34);
         beverage.setMochaCost(4.77);
         beverage.setSoyCost(26.22);
         beverage.setWhipCost(50.55);
 
-
-        DarkRoast darkRoast = new DarkRoast();
-        System.out.print(darkRoast.description + " " + darkRoast.cost());
+        System.out.print(beverage.description + " " + beverage.cost() + "\n");
+        System.out.print(beverage.description + " " + beverage.milkCost + "\n");
+        System.out.print(beverage.description + " " + beverage.mochaCost + "\n");
     }
 
     @Getter
