@@ -9,7 +9,9 @@ public class Main {
         PizzaFactory pizzaFactory = regionalFactory.createFactory("New York");
         
         Pizza pizza = pizzaFactory.createPizza("cheese");
-        
+        Pizza pizza1 = pizzaFactory.createPizza("pepperoni");
+
         System.out.println("Created: " + pizza.getName() + " " + regionalFactory.getRegion());
+        System.out.println("Created: " + pizza1.getName() + " " + regionalFactory.getRegion());
     }
 }
