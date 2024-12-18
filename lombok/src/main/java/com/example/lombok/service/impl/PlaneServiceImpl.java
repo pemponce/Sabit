@@ -14,7 +14,7 @@ public class PlaneServiceImpl implements PlaneService {
 
     @Override
     public void print() {
-        System.out.println(planeRepository.getAll().toString() + " 1241251251251233 ");
+        System.out.println(planeRepository.getAll().toString());
 
     }
 
