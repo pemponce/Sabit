@@ -1,4 +1,4 @@
-package org.example;
+package org.example.simp;
 
 class SimplePizzaFactory {
     public Pizza createPizza(String type) {

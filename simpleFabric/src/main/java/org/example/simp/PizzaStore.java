@@ -1,4 +1,4 @@
-package org.example;
+package org.example.simp;
 
 class PizzaStore {
     private final SimplePizzaFactory factory;
