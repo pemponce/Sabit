@@ -66,6 +66,8 @@ class DinerMenu implements Menu {
         addItem("Hotdog");
     }
 
+    ///
+
     public void addItem(String item) {
         if (numberOfItems < MAX_ITEMS) {
             menuItems[numberOfItems++] = item;
