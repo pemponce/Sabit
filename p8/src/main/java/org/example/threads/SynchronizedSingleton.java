@@ -13,4 +13,9 @@ public class SynchronizedSingleton {
         }
         return uniqueInstance;
     }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        throw new CloneNotSupportedException("Singleton instance cannot be cloned");
+    }
 }
